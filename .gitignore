@@ -1,0 +1,11 @@
+# Ignore the Python virtual environment
+weather-data-project/.venv/
+
+# Ignore the PostgreSQL data directory
+weather-data-project/postgres/data/
+
+weather-data-project/postgres/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc

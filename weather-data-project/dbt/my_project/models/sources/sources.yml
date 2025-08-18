@@ -1,0 +1,25 @@
+version: 2
+
+
+sources:
+  - name: dev
+    database: db
+    tables:
+      - name: raw_weather_data
+        columns:
+          - name: id
+            description: "Unique identifier for each weather record"
+          - name: city
+            description: "Date of the weather record"
+          - name: temperature
+            description: "Recorded temperature in Celsius"
+          - name: weather_description
+            description: "Recorded humidity percentage"
+          - name: wind_speed
+            description: "Recorded wind speed in km/h"
+          - name: time
+            description: "Recorded precipitation in mm"
+          - name: inserted_at
+            description: "Timestamp when the record was inserted into the database"
+          - name: utc_offset
+            description: "UTC offset at the time of the record"
