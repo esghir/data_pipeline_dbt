@@ -59,5 +59,3 @@ Although we are running a single PostgreSQL container instance, it serves as a b
     * Users can explore the `weather_report` table and other transformed tables to build charts.
     * An example dashboard is provided to visualize the latest weather trends and historical data.
 
----
-## 📁 Folder Structure
